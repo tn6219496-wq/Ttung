@@ -1,0 +1,18 @@
+{
+  "name": "discord-auto-reply-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot trả lời tin nhắn theo cấu hình",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
